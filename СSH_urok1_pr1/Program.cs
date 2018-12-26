@@ -10,6 +10,13 @@ namespace СSH_urok1_pr1
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Введите ваше имя");
+            string name;
+            name = Console.ReadLine();
+            if (name == "")
+                Console.WriteLine("Здравствуй, мир!");
+            else
+                Console.WriteLine("Здравствуй, " + name + "!");
         }
     }
 }
